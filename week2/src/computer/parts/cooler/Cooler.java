@@ -4,14 +4,11 @@ import computer.parts.OnOff;
 import computer.parts.Parts;
 
 public class Cooler extends Parts implements OnOff {
-    private String partsName;
     private CoolerType type;
-    private int price;
-    private String Company;
     private CoolerUsage usage; // 냉각방식
 
-    public Cooler(String partsName, CoolerType type, int price, String company, CoolerUsage usage) {
-        super(partsName, price, company);
+    public Cooler(String name, CoolerType type, int price, String company, CoolerUsage usage) {
+        super(name, price, company);
         this.type = type;
         this.usage = usage;
     }

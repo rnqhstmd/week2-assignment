@@ -4,13 +4,10 @@ import computer.parts.OnOff;
 import computer.parts.Parts;
 
 public class Mouse extends Parts implements OnOff {
-    private String partsName;
     private MouseType type;
-    private int price;
-    private String company;
 
-    public Mouse(String partsName, MouseType type, int price, String company) {
-        super(partsName,price,company);
+    public Mouse(String name, MouseType type, int price, String company) {
+        super(name,price,company);
         this.type = type;
     }
 

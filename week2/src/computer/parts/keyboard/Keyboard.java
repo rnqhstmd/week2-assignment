@@ -4,14 +4,11 @@ import computer.parts.OnOff;
 import computer.parts.Parts;
 
 public class Keyboard extends Parts implements OnOff {
-    private String partsName;
     private KeyboardType type;
-    private int price;
-    private String company;
     private KeyboardKeyArrangement arrangement;
 
-    public Keyboard(String partsName, KeyboardType type, int price, String company, KeyboardKeyArrangement arrangement) {
-        super(partsName, price, company);
+    public Keyboard(String name, KeyboardType type, int price, String company, KeyboardKeyArrangement arrangement) {
+        super(name, price, company);
         this.type = type;
         this.arrangement = arrangement;
     }

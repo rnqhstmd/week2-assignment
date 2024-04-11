@@ -4,14 +4,11 @@ import computer.parts.OnOff;
 import computer.parts.Parts;
 
 public class Ram extends Parts implements OnOff {
-    private String partsName;
     private RamType type; // 부품명
-    private int price; //가격
-    private String company; //제조사
     private int volume; //용량
 
-    public Ram(String partsName, RamType type, int price, String company, int volume) {
-        super(partsName,price,company);
+    public Ram(String name, RamType type, int price, String company, int volume) {
+        super(name,price,company);
         this.type = type;
         this.volume = volume;
     }

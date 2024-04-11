@@ -5,14 +5,11 @@ import computer.parts.Parts;
 
 public class PowerSupplier extends Parts implements OnOff {
 
-    private String partsName;
     private PowerSupplierType type;
-    private int price;
-    private String company;
     private int output;
 
-    public PowerSupplier(String partsName, PowerSupplierType type, int price, String company, int output) {
-        super(partsName,price,company);
+    public PowerSupplier(String name, PowerSupplierType type, int price, String company, int output) {
+        super(name,price,company);
         this.type = type;
         this.output = output;
     }

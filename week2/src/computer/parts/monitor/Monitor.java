@@ -4,14 +4,11 @@ import computer.parts.OnOff;
 import computer.parts.Parts;
 
 public class Monitor extends Parts implements OnOff {
-    private String partsName;
     private MonitorType type;
-    private int price;
-    private String company;
     private int size;
 
-    public Monitor(String partsName, MonitorType type, int price, String company, int size) {
-        super(partsName, price, company);
+    public Monitor(String name, MonitorType type, int price, String company, int size) {
+        super(name, price, company);
         this.type = type;
         this.size = size;
     }
