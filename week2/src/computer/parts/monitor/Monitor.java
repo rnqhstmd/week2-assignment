@@ -3,7 +3,7 @@ package computer.parts.monitor;
 import computer.parts.OnOff;
 import computer.parts.Parts;
 
-public class Monitor extends Parts implements OnOff {
+public class Monitor extends Parts {
     private MonitorType type;
     private int size;
 

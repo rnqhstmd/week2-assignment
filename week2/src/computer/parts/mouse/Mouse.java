@@ -3,7 +3,7 @@ package computer.parts.mouse;
 import computer.parts.OnOff;
 import computer.parts.Parts;
 
-public class Mouse extends Parts implements OnOff {
+public class Mouse extends Parts  {
     private MouseType type;
 
     public Mouse(String name, MouseType type, int price, String company) {

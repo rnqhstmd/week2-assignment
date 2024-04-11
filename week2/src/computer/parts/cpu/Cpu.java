@@ -3,7 +3,7 @@ package computer.parts.cpu;
 import computer.parts.OnOff;
 import computer.parts.Parts;
 
-public class Cpu extends Parts implements OnOff {
+public class Cpu extends Parts {
     private CpuType type; //부품명
     private int velocity; //속도
     private CpuUsage usage; // 용도

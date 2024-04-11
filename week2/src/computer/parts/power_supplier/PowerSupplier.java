@@ -3,7 +3,7 @@ package computer.parts.power_supplier;
 import computer.parts.OnOff;
 import computer.parts.Parts;
 
-public class PowerSupplier extends Parts implements OnOff {
+public class PowerSupplier extends Parts {
 
     private PowerSupplierType type;
     private int output;

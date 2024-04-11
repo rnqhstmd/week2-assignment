@@ -3,7 +3,7 @@ package computer.parts.ram;
 import computer.parts.OnOff;
 import computer.parts.Parts;
 
-public class Ram extends Parts implements OnOff {
+public class Ram extends Parts {
     private RamType type; // 부품명
     private int volume; //용량
 

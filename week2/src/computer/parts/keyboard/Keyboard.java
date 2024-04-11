@@ -3,7 +3,7 @@ package computer.parts.keyboard;
 import computer.parts.OnOff;
 import computer.parts.Parts;
 
-public class Keyboard extends Parts implements OnOff {
+public class Keyboard extends Parts {
     private KeyboardType type;
     private KeyboardKeyArrangement arrangement;
 

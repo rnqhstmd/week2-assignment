@@ -3,7 +3,7 @@ package computer.parts.graphic_card;
 import computer.parts.OnOff;
 import computer.parts.Parts;
 
-public class GraphicCard extends Parts implements OnOff {
+public class GraphicCard extends Parts {
 
     private GraphicCardType type; //부품명
     private GraphicCardUsage usage;

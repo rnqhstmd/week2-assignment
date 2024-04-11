@@ -3,7 +3,7 @@ package computer.parts.cooler;
 import computer.parts.OnOff;
 import computer.parts.Parts;
 
-public class Cooler extends Parts implements OnOff {
+public class Cooler extends Parts{
     private CoolerType type;
     private CoolerUsage usage; // 냉각방식
 
