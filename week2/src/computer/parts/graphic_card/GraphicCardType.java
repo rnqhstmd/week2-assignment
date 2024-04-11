@@ -1,4 +1,4 @@
-package graphic_card;
+package computer.parts.graphic_card;
 
 public enum GraphicCardType {
     Nvidia,Amd
